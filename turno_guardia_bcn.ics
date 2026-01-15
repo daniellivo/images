@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Livo//Cinema Event//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:turno-guardia-2025@getlivo.com
+DTSTAMP:20260115T120000Z
+DTSTART:20260129T170000Z
+DTEND:20250129T190000Z
+SUMMARY:Turno de Guardia - Proyección Livo
+DESCRIPTION:Proyección especial de "Turno de Guardia" organizada por Livo.\n\nPlan: {{TIPO_ENTRADA}}\nAcompañantes: {{NUMERO_ACOMPAÑANTES}}\n\n¡Nos vemos allí!
+LOCATION:SOM Multiespai, Av. de Río de Janeiro, 42, Barcelona
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Recordatorio: Turno de Guardia en 2 horas
+END:VALARM
+END:VEVENT
+END:VCALENDAR
